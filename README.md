@@ -12,10 +12,10 @@
 | 时间  | 内容 |
 | ----- | ---- |
 | 大一上 | C语言  |
-| 大一下 | 数据结构和算法, STM32裸板开发, 项目实战|
-| 大二上 | 嵌入式Linux, 编译原理, 项目实战|
-| 大二下 | C++, 计算机组成原理, 实时操作系统RTOS, 项目实战|
-| 大三上 | [项目实战](#项目实战),[找实习](#找实习) |
+| 大一下 | 数据结构和算法， STM32裸板开发，项目实战 |
+| 大二上 | arm体系架构([嵌入式linux](#嵌入式linux))，linux系统编程，计算机组成原理， 编译原理， 项目实战 |
+| 大二下 | C++， 实时操作系统RTOS，linux内核与驱动([嵌入式linux](#嵌入式linux))，[操作系统](#操作系统)，项目实战 |
+| 大三上 | [项目实战](#项目实战)，[找实习](#找实习) |
 | 大三下 | 企业实习/教研室科研/海外交换 |
 
 - 欢迎大家随时更新
@@ -106,13 +106,22 @@
 - [树莓派新手入门教程](http://www.ruanyifeng.com/blog/2017/06/raspberry-pi-tutorial.html)
 
 ## 嵌入式Linux
+
+### 书籍推荐
+
 |名称|作者|介绍|
 |-|-|-|
+|[LKD3](https://book.douban.com/subject/6097773/)|Robert Love|linux内核的设计与实现，非常经典的入门书籍。可帮助理解操作系统|
+|[ELDD](https://book.douban.com/subject/3088263/)|Sreekrishnan Venkateswaran|linux设备驱动详细解读，稍难，是linux设备驱动相关的经典书籍。|
+|Linux内核源代码情景分析|毛德操 / 胡希明|浙大毛教授著作。基于2.4内核，对代码有详细解读。虽2.4版本较老，但如此详细的解读也值得一读。|
 | [The Design of the Unix Operating System](https://book.douban.com/subject/1768601/) |Maurice J. Bach||
 | [Linux 内核揭秘](https://xinqiu.gitbooks.io/linux-insides-cn/content/index.html)|||
 | [Linux Device Drivers, 3rd Edition](https://book.douban.com/subject/1723151/)|Jonahan Corbet||
 
+
+
 ## 编译原理
+
 |名称|作者|介绍|
 |-|-|-|
 |[15-411/611 Compiler Design - CMU](https://www.cs.cmu.edu/~janh/courses/411/16/)|Jan Hoffmann|CMU的编译原理基础课程|
