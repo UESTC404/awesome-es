@@ -1,5 +1,12 @@
+#项目介绍
+
+这是一个电子科技大学软件学院本科阶段计算机体系结构学习&嵌入式开发的公开课/书籍/Blog/资料整理的项目，如果你有贡献的想法：
+
+1. 可以直接提交Pull Request
+2. 如果你是嵌入式工作室成员，请联系[@starFalll](https://github.com/starFalll)（fyxformal@gmail.com）,[@StevenXu98](https://github.com/StevenXu98)（steven_xu98@163.com）等[UESTC404](https://github.com/UESTC404)组织的所有者，邀请你加入 UESTC404 中
+
 # 学习资源分享
-- 本科阶段计算机体系结构学习&嵌入式开发的公开课/书籍/Blog/资料整理
+
 - 推荐的学习主线：
 
 | 时间  | 内容 |
