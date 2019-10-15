@@ -62,9 +62,33 @@
 
 ## 编程语言
 ### C语言
+
+书籍推荐：
+|名称|作者|介绍|
+|-|-|-|
+| [C语言程序设计现代方法](https://book.douban.com/subject/2280547/) |[K. N. King](https://book.douban.com/search/K. N. King)|入门推荐读物，讲解清晰|
+| [C与指针](https://book.douban.com/subject/3012360/) |[Kenneth A·Reek](https://book.douban.com/author/1715767/)|进阶读物，“C语言三剑客”之一|
+| [C陷阱与缺陷](https://book.douban.com/subject/2778632/) |[凯尼格](https://book.douban.com/author/284407/)|进阶读物，“C语言三剑客”之一，重点讲解C中的注意事项|
+| [C专家编程](https://book.douban.com/subject/2377310/) |[Peter van der Linden](https://book.douban.com/author/1176128/)|进阶读物，“C语言三剑客”之一|
+
+资源推荐：
+
+
 - [C 语言资源大全中文版](https://github.com/jobbole/awesome-c-cn)
 - [The C build process](https://blog.feabhas.com/2012/06/the-c-build-process/)
 ### C++
+
+书籍推荐阅读顺序：
+
+|阅读顺序|名称|作者|介绍|
+|-|-|-|-|
+| 1 | [C++ Primer](https://book.douban.com/subject/25708312/) |[[美\] Stanley B. Lippman](https://book.douban.com/search/Stanley B. Lippman) / [[美\] Josée Lajoie](https://book.douban.com/search/Josée Lajoie) / [[美\] Barbara E. Moo](https://book.douban.com/search/Barbara E. Moo)|C++最经典教程|
+| 2 | [Effective C++](https://book.douban.com/subject/5387403/) |[梅耶 (Scott Meyers)](https://book.douban.com/search/梅耶)|C++开发必读经典|
+| 3 | [STL源码剖析](https://book.douban.com/subject/1110934/) |[侯捷](https://book.douban.com/author/104388/)|理解STL源码必读|
+| 4 | [深度探索C++对象模型](https://book.douban.com/subject/1091086/) |[[美\] Stanley B·Lippman](https://book.douban.com/author/201520/)|从编译器层面认识C++对象模型|
+
+资源推荐：
+
 - [C++ 资源大全中文版](https://github.com/jobbole/awesome-cpp-cn)
 - [CppTemplateTutorial](https://github.com/wuye9036/CppTemplateTutorial)
 ### Java
@@ -125,6 +149,7 @@
 |名称|作者|介绍|
 |-|-|-|
 |[15-411/611 Compiler Design - CMU](https://www.cs.cmu.edu/~janh/courses/411/16/)|Jan Hoffmann|CMU的编译原理基础课程|
+|[自己动手写编译器](https://pandolia.net/tinyc/index.html)|pandolia|实现一个简单的C编译器|
 
 ## 软件工程
 - 编写文档： [Doxygen](http://www.doxygen.nl/), [Sphinx](http://www.sphinx-doc.org/en/master/)
