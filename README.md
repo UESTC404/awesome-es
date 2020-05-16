@@ -35,8 +35,8 @@
 |技能点名称|技能点内容|
 |--|--|
 |[编程语言](#编程语言)|[C语言](#C语言), [C++](#C++), [Python](#Python)|
-|[算法和数据结构](#算法和数据结构)||
-|[软件工程](#软件工程)||
+|[算法和数据结构](#算法和数据结构)|链表，栈，队列，字符串，二叉树，图，查找，排序，以及一些面试中经常考察的模板例如动态规划，滑动窗口，快慢指针，寻找第 K 个最大的元素等等|
+|[软件工程](#软件工程)|编写文档, 代码质量, 自动化测试, Code Review, 持续集成工具|
 |[编译原理](#编译原理)||
 |[计算机体系结构](#计算机体系结构)||
 |[操作系统](#操作系统)||
@@ -107,6 +107,12 @@
 | [数据结构](https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/) |邓俊辉|国内质量最高的数据结构课程，推荐在MOOC上跟学，[教材链接](https://book.douban.com/subject/25859528/)|
 
 ## 工具链
+在大一上学完C语言之后，推荐自学一门课：MIT 的 [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)，可以翻译为计算机科学课堂中学不到的知识。[B站链接](https://www.bilibili.com/video/BV1x7411H7wa).
+
+这门课会教你使用各种工具链，比如 在终端下Bash Shell 编程，VIM 编辑器，正则表达式，Git 版本控制，profiler, SSH 配置远程环境等等。灵活地使用工具链能极大地提高你的工作效率。
+
+你可以考虑运用在这门课上学到的知识，在大一下的时候在 Github 上搭一个自己的博客。
+
 ### 版本控制：Git
 - [Git教程- 廖雪峰](https://www.liaoxuefeng.com/wiki/896043488029600)
 
@@ -159,8 +165,11 @@
   - C++: [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
   - Java: [阿里巴巴Java开发手册](https://yq.aliyun.com/articles/69327)
   - Python: [PEP8](https://www.python.org/dev/peps/pep-0008/), [isort](https://pypi.org/project/isort/), [black](https://pypi.org/project/black/), [Pyre](https://github.com/facebook/pyre-check)
-- 自动化测试: [Robot](https://robotframework.org/) 
+- 自动化测试: [Robot](https://robotframework.org/), [pytest](https://docs.pytest.org/en/latest/)
 - Code review: [Gerrit](https://www.vogella.com/tutorials/Gerrit/article.html)
+- 持续集成工具: [Travis CI](https://travis-ci.org/)
+
+
 
 ## 计算机体系结构
 |名称|作者|介绍|
@@ -174,9 +183,11 @@
 
 ## 操作系统
 
-| 名称                                                         | 作者 | 介绍                                                     |
-| ------------------------------------------------------------ | ---- | -------------------------------------------------------- |
+|名称|作者|介绍|
+|-|-|-|
 | [清华大学操作系统课程(2019)](https://chyyuu.gitbooks.io/os_course_info/) |      | 清华OS实验室的操作系统课程，课件、实验作业的质量都非常高 |
+
+
 
 ## 实时操作系统
 
@@ -200,12 +211,11 @@
 |名称|介绍|
 |-|-|
 |[Google Summer of Code](https://summerofcode.withgoogle.com/)|每年3月份开始提交申请的proposal|
-|[数学建模](http://www.math.uestc.edu.cn/mathmodeling/index.php)|要自学一下matlab|
+|[数学建模](http://121.48.165.20/mathmodeling/)|要自学一下matlab|
 |[Robomaster](https://www.robomaster.com/zh-CN/robo/overview)||
-|[ACM](https://acm.uestc.edu.cn/)||
+|[ACM](https://acm.uestc.edu.cn/home)||
 |嵌入式综合设计|在廖老师指导下做四轴飞行器|
 
 ## 找实习
 - 找工作室前辈内推
 - 刷题：[Leetcode](https://leetcode.com/)，[牛课网](https://www.nowcoder.com/)
-
