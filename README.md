@@ -9,16 +9,17 @@
 
 - 推荐的学习主线：
 
-| 时间  | 内容 |
-| ----- | ---- |
-| 大一上 | C语言  |
-| 大一下 | 数据结构和算法， STM32裸板开发，项目实战 |
-| 大二上 | arm体系架构([嵌入式linux](#嵌入式linux))，linux系统编程，计算机组成原理， 编译原理， 项目实战 |
-| 大二下 | C++， 实时操作系统RTOS，linux内核与驱动([嵌入式linux](#嵌入式linux))，[操作系统](#操作系统)，项目实战 |
-| 大三上 | [项目实战](#项目实战)，[找实习](#找实习) |
-| 大三下 | 企业实习/教研室科研/海外交换 |
+    | 时间   | 内容                                                         |
+    | ------ | ------------------------------------------------------------ |
+    | 大一上 | C语言，STM32/51单片机开发入门                                |
+    | 大一下 | 数据结构和算法， STM32裸板开发，Linux操作及使用，项目实战    |
+    | 大二上 | arm体系架构([嵌入式linux](#嵌入式linux))，STM32从裸板到应用，计算机组成原理，软件工程项目实战 |
+    | 大二下 | C++， 实时操作系统RTOS，[操作系统](#操作系统)，Linux系统编程，计算机网络，项目实战 |
+    | 大三上 | 编译原理，Linux内核与驱动([嵌入式linux](#嵌入式linux))，[项目实战](#项目实战)，[找实习](#找实习) |
+    | 大三下 | 企业实习/教研室科研/海外交换                                 |
 
 - 欢迎大家随时更新
+
 - 参考阅读
   - [机器人工程师学习计划](https://zhuanlan.zhihu.com/p/22266788)
   - [技术专精与广博的一些思考](https://zhuanlan.zhihu.com/p/75522108)
@@ -37,30 +38,32 @@
 |[编程语言](#编程语言)|[C语言](#C语言), [C++](#C++), [Python](#Python)|
 |[算法和数据结构](#算法和数据结构)|链表，栈，队列，字符串，二叉树，图，查找，排序，以及一些面试中经常考察的模板例如动态规划，滑动窗口，快慢指针，寻找第 K 个最大的元素等等|
 |[软件工程](#软件工程)|编写文档, 代码质量, 自动化测试, Code Review, 持续集成工具|
-|[编译原理](#编译原理)||
-|[计算机体系结构](#计算机体系结构)||
-|[操作系统](#操作系统)||
-|[计算机网络](#计算机网络)||
+|[编译原理](#编译原理)|编译器构造及各部分功能|
+|[计算机体系结构](#计算机体系结构)|CPU原型机, 总线, 存储,|
+|[操作系统](#操作系统)|进程管理, 内存管理, 文件系统, ...|
+|[计算机网络](#计算机网络)|OSI五层模型, TCP/IP协议栈, Linux网络编程, ...|
 
 ### 嵌入式方向
 如果你对嵌入式方向有兴趣，需要掌握以下技能：
 
-|技能点名称|技能点内容|
-|--|--|
-|开发平台|CPU:Intel x86, ARM x86|
-||[MCU编程](#MCU编程): C51, STM32|
-||FPGA||
-|[嵌入式开发软件](#嵌入式开发软件)|Keil uVision, STM32Cube, jtag debugger|
-|[嵌入式Linux](#嵌入式Linux)|Bootloader, driver, ...|
-|[实时操作系统](#实时操作系统)|uCOS, ROS|
-|外设|Timer, ADC / DAC, ROM / RAM, PWM, I/O / GPIO, ...|
-|执行器|电机(步进, 无刷, 舵机，...)，电调|
-|传感器|陀螺仪，超声波，红外, ...|
-|电子元件|电容，电阻，开关，二极管, ...|
-|通信协议|Bluetooth, Zigbee, Wifi, UART, TCP, UDP, I2C, ...|
-|电路|焊电路, PCB设计|
+| 技能点名称                        | 技能点内容                                            |
+| --------------------------------- | ----------------------------------------------------- |
+| 开发平台                          | CPU: Intel x86 x64, ARM64                             |
+|                                   | [MCU编程](#MCU编程)：C51, STM32                       |
+|                                   | FPGA                                                  |
+| [嵌入式开发软件](#嵌入式开发软件) | Keil uVision, STM32Cube, JTAG debugger, System Viewer |
+| [嵌入式Linux](#嵌入式Linux)       | Bootloader, Driver, ...                               |
+| [实时操作系统](#实时操作系统)     | uCOS, FreeRTOS, ROS（严格来说是ROS2）                 |
+| 外设                              | Timer, ADC / DAC, ROM / RAM, PWM, I/O / GPIO, ...     |
+| 执行器                            | 电机(步进, 无刷, 舵机, ...), 电调, FOC                |
+| 传感器                            | 陀螺仪, 加速度计, 超声波, 红外, ...                   |
+| 电子元件                          | 电容, 电阻, 开关, 二极管, 晶振...                     |
+| 通信协议                          | Bluetooth, Zigbee, Wifi, UART, TCP, UDP, I2C, ...     |
+| 电路                              | PCB设计, 元件焊接                                     |
+| 仪器                              | 万用表, 示波器, 信号发生器, 逻辑分析仪, ...           |
 
 ## 编程语言
+
 ### C语言
 
 书籍推荐：
@@ -133,8 +136,21 @@
 - [野火电子](https://github.com/Embdefire/products/wiki)
 - [STM32F103C8 参考代码](https://github.com/avislab/STM32F103)
 - [STM32F427 RoboMaster A板 BSP](https://github.com/RT-Thread/rt-thread/tree/master/bsp/stm32/stm32f427-robomaster-a)
-### 树莓派
-- [树莓派新手入门教程](http://www.ruanyifeng.com/blog/2017/06/raspberry-pi-tutorial.html)
+
+### 学习指南
+
+**内核**：多参考ARM Crotex M3/M4权威指南，结合《计算机组成原理》和《ARM处理器及应用》相关课程内容进行理解。需要了解的知识点有启动流程、中断流程、时钟树......
+
+**外设**：对于MCU编程来说外设的学习主要分为以下步骤
+
+ 	1. 硬件构造，例如挂载到哪个时钟总线上，硬件上是否需要依托其他外设工作......
+
+2.   协议原理，搞清楚通信协议内容和规则，了解下通信的信号是怎么样的。
+3.   寄存器功能，参考芯片《用户手册》详细了解外设相关寄存器功能，有多少个相关寄存器，每个寄存器是干什么用的，每一位又有什么用。
+4.   代码模仿，去原子、野火这些地方找点样例代码，学习下代码结构，让外设工作起来需要哪些配置步骤。
+5.   上手实践，自己去实现一套外设驱动，多尝试不同的配置不同的功能。
+
+搞定这几个环节应该就能把相应的外设基本搞清楚，也能实现简单的功能了，接下来就是灵活应用，深入了解其中原理了。
 
 ## 嵌入式Linux
 
@@ -149,7 +165,19 @@
 | [Linux 内核揭秘](https://xinqiu.gitbooks.io/linux-insides-cn/content/index.html)|||
 | [Linux Device Drivers, 3rd Edition](https://book.douban.com/subject/1723151/)|Jonahan Corbet||
 
+### 树莓派
 
+- [树莓派新手入门教程](http://www.ruanyifeng.com/blog/2017/06/raspberry-pi-tutorial.html)
+- [树莓派有什么好用的系统](https://www.zhihu.com/question/409358504/answer/1361895930)
+- [树莓派NAS](https://www.zhihu.com/question/389530501/answer/1416338154)
+- [树莓派安装OpenCV](https://zhuanlan.zhihu.com/p/269727770)
+- ......
+
+### NVIDIA Jetson
+
+-   [CUDA on ARM入门教程](https://www.zhihu.com/column/c_1412785437094506496)
+-   [Hello AI World](https://github.com/dusty-nv/jetson-inference)
+-   ......
 
 ## 编译原理
 
@@ -196,6 +224,7 @@
 |[μC/OS-III: The Real-Time Kernel for STM32](https://doc.micrium.com/pages/viewpage.action?pageId=10753180&preview=/10753180/12779577/100-uCOS-III-ST-STM32-003.pdf)|Jean J. Labrosse|经典实时操作系统, C语言编写|
 |[AliOS Things](https://github.com/alibaba/AliOS-Things)||国产实时操作系统，阿里巴巴面向物联网领域开发|
 |[TencentOS-tiny](https://github.com/Tencent/TencentOS-tiny)||国产实时操作系统，腾讯面向物联网领域开发|
+|[Huawei-LiteOS](https://github.com/LiteOS/LiteOS)||鸿蒙操作系统物联网业务内核|
 
 ## 项目实战
 工作室往届的项目介绍：
@@ -205,6 +234,8 @@
 |[Quadcopter](https://github.com/xxyyttxx/Quadcopter)|2015|基于STM32F411外设固件库的四轴keil5工程|
 |[基于Tensorflow的树莓派智能识别机器人](https://github.com/starFalll/Raspbarry_Tensorflow_Robot)|2016|基于Tensorflow的树莓派智能识别机器人|
 |[Quadcopter](https://github.com/Crabor/Quadcopter)|2017|基于STM32F401RE的四轴飞行器|
+|[SkyEye](https://github.com/Jason-xy/VSLAM-Quadcopter_2021TI)|2021|基于ROS的VSLAM四轴飞行器|
+|[WuhuTakeOff](https://github.com/Jason-xy/WuhuTakeOff)|2021|基于FreeRTOS的四轴飞行器|
 
 一些推荐参加的本科阶段的科技创新类项目 & 比赛：
 
